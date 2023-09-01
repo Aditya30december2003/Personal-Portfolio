@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+
+        <div class="nav-container">           
+            <ul class="nav">
+                <li data-aos="zoom-in" data-aos-delay="150">HOME</li>
+                <li data-aos="zoom-in" data-aos-delay="250">CONTACT</li>
+                <!-- <li data-aos="zoom-in" data-aos-delay="250">SKILLS</li> -->
+                <li data-aos="zoom-in" data-aos-delay="350">RESUME</li>
+                <li data-aos="zoom-in" data-aos-delay="450">MY WORK</li>
+                <li data-aos="zoom-in" data-aos-delay="550">Q'n'A</li>
+            </ul>
+        </div>
+
+    </header>
+     
+    <!-- home -->
+    <div class="home">
+        <div class="name" data-aos="fade-up" data-aos-delay="550">A<span class="blur">dit</span>ya</div>
+        <img src="Images/Aditya2.png" alt="" data-aos="fade-down" data-aos-delay="650" id="pimage">
+        <div class="title" data-aos="fade-up" data-aos-delay="1150">F<span class="blur">ront-En</span>d<br>Web <span class="blur">Devel</span>oper</div>
+    </div>
+
+     <!-- about -->
+    <div class="about">
+        Hi !! My name is Aditya, a <span class="age">19</span>-year-old guy from Jaipur, India.Currently doing my btech in Computer Science from Manipal University Of Jaipur, looking for new oppertunities as Web-developer. I am passionate front-end web developer filled with amazing ideas. 
+    </div>
+
+<!-- qna -->
+    <div class="question-container">
+    <h1 class="question">What is a Frontend Web Developer?</h1>
+    <div class="tags">
+        <div data-aos="zoom-in-up" data-aos-delay="550" class="tag tag1">Is front-end web development easy?</div>
+        <div data-aos="zoom-in-up" data-aos-delay="600" class="tag tag2">A Developer Needs to be Multi-Tasker</div>
+        <div data-aos="zoom-in-up" data-aos-delay="650" class="tag tag3">Attractive Homepage is All We Need</div>
+        <div data-aos="zoom-in-up" data-aos-delay="680" class="tag tag4">No Need for SEO While Website Creation</div>
+    </div>
+    </div>
+
+    <div class="answer-container">
+        <div class="answer">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptate ullam recusandae fuga odit dolores minima sunt rerum voluptas itaque! Exercitationem molestias doloribus deleniti repellat impedit quod fugit similique obcaecati.</div>
+    </div>
+
+    <!-- skills -->
+    <div class="skills">
+        <h1 >Skills & EXPIRIENCE</h1>
+        <div class="orbit">
+            <div class="center-image">
+              <img src="Images/globe.png" alt="">
+            </div>
+            <ul>
+              <li>
+                <div><img src="Images/html.png" alt=""></div>
+                <p>HTML</p>
+              </li>
+              <li>
+                <div><img src="Images/css.png" alt=""></div>
+                <p>CSS</p>
+              </li>
+              <li>
+                <div><img src="Images/git.png" alt=""></div>
+                <p>GIT</p>
+              </li>
+              <li>
+                <div><img src="Images/gsap.png" alt=""></div>
+                <p>GSAP</p>
+              </li>
+              <li>
+                <div><img src="Images/JavaScript.png" alt="" class="js-icon"></div>
+                <p>JavaScript</p>
+              </li>
+              <li>
+                <div><img src="Images/react.png" alt=""></div>
+                <p>React</p>
+              </li>
+              <li>
+                <div><img src="Images/sass.png" alt=""></div>
+                <p>Sass</p>
+              </li>
+              <li>
+                <div><img src="Images/cpp.png" alt=""></div>
+                <p>CPP</p>
+              </li>
+            </ul>
+          </div>
+          </div>
+          
+          <!-- responsive -->
+          <div class="project-slides">
+            <div class="left-container">
+              <h1>Projects</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque quisquam ducimus, ex ipsum harum commodi. Eligendi, accusamus corporis! Maxime, nulla?</p>
+            </div>
+            <div class="right-container">
+              <div class="upper-icons">
+                <ul class="icons">
+                     <li onclick="Desktop()"><i class="fa fa-desktop" style="font-size:36px"></i></li>
+                     <li onclick="Laptop()"><i class="fa fa-laptop" style="font-size:36px"></i></li>
+                     <li onclick="Tablet()"><i class="fa fa-tablet" style="font-size:36px"></i></li>
+                     <li onclick="Mobile()"><i class="fa fa-mobile-phone" style="font-size:36px"></i></li>
+                </ul>
+              </div>
+              <div class="lower-image">
+                <img src="Images/pc.png" alt="" class="responsive-image">
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- My Work -->
+          <div class="work-container">
+          <div class="work-header">
+            <h1>My Work</h1>
+            <p><img src="Images/arrow-down.png" alt="" width="50px" height="25px" class="arrow-down"></p>
+            <p><img src="Images/arrow-up.png" alt="" width="50px" height="25px" class="arrow-up"></p>
+           </div>
+    <div class="hidden">
+           <div class="filter">
+            <ul>
+                <li class="filter-btn" id="all">All</li>
+                <li class="filter-btn" id="landing">Landing Page</li>
+                <li class="filter-btn" id="product">Product Page</li>
+                <li class="filter-btn" id="apps">Web Apps</li>
+                <li class="filter-btn" id="games">Games</li>
+                <li class="filter-btn" id="reactjs">React Js</li>
+            </ul>
+           </div>
+        <div class="projects-container">
+        </div>
+      </div>
+      </div>
+
+
+       <!-- CV -->
+      <div class="cv">
+        <h1>My CV</h1>
+      <img src="Images/cv.jpg" alt="cv" width="550px" height="700px">
+      </div>
+
+       <!-- what-now -->
+       <div class="what-now">
+       <h1>What Now</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam optio error mollitia? Natus, quaerat! Voluptate tenetur maxime eius molestias harum.</p>
+       </div>
+
+      <!-- //CONTACT -->
+      <div class="contact-container">
+        <div class="contact-me">contact me!!</div>
+        <div class="social-media">
+         <p><a href="#">E-mail</a></p>
+         <p><a href="#">Linkdin</a></p>
+         <p><a href="#">Twitter</a></p>
+         <p><a href="#">Github</a></p>
+        </div>
+     <div class="left-contact">
+         <a href=""><img src="Images/discord.jpg" alt=""></a>
+         <a href=""><img src="Images/reddit.jpg" alt=""></a>
+     </div>
+     </div>
+        
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+    AOS.init({
+            duration: 800,
+            offset:150,
+        });
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
